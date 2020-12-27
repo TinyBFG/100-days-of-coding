@@ -20,3 +20,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
