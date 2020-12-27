@@ -14,10 +14,5 @@ h1 {
   text-align: center;
 }
 body {
-  height: 100%;
-  margin: 0 auto;
   background-image: url(https://images.app.goo.gl/9xBFFf2mtQGSZUNd6);
-  background-size: 100%;
-  background-clip: content-box;
-  background-repeat: no-repeat;
 }
