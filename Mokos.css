@@ -1,6 +1,6 @@
 p {
   text-align: center;
-
+  color: white;
   margin-left: 325px;
   margin-right: 325px;
   }
@@ -15,7 +15,7 @@ h1 {
 }
 body {
   background-image: url("https://cdn.myminifactory.com/assets/object-assets/5d30c999f25bc/images/720X720-logo.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
