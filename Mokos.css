@@ -35,3 +35,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+.Layer2 {
+  height: 250px;
+  width: auto;
+}
