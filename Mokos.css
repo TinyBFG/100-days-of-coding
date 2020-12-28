@@ -1,4 +1,4 @@
-p {
+ .content1 {
   text-align: center;
   color: #FAEBD7;
   margin-left: 150px;
@@ -21,7 +21,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-.container {
+.container1 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,4 +29,9 @@ body {
 .Layer1 {
   height: 250px;
   width: auto;
+}
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
