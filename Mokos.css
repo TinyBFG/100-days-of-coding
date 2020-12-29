@@ -13,7 +13,7 @@
 }
 h1 {
   text-align: center;
-  color: #FAEBD7;
+  color: liner-gradient(35deg, #CCFFFF, #FFCCCC);
 }
 body {
   background-image: url("https://cdn.myminifactory.com/assets/object-assets/5d30c999f25bc/images/720X720-logo.jpg");
