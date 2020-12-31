@@ -1,0 +1,41 @@
+ .content1 {
+  text-align: center;
+  color: #FAEBD7;
+  margin-left: 150px;
+  margin-right: 150px;
+  line-height: 25px;
+  }
+.centered-video {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 50%
+}
+h1 {
+  text-align: center;
+  color: #FAEBD7;
+}
+body {
+  background-image: url("https://cdn.myminifactory.com/assets/object-assets/5d30c999f25bc/images/720X720-logo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Layer1 {
+  height: 250px;
+  width: auto;
+}
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Layer2 {
+  height: 250px;
+  width: auto;
+}
