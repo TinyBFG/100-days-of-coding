@@ -16,7 +16,7 @@ body {
   border-bottom: solid #F5F5F5 2px;
 }
 .Home-button {
-  height: 10%;
+  height: auto;
 }
 .Navbar-buttons {
   display: flex;
