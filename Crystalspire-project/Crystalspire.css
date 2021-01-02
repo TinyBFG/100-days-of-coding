@@ -4,5 +4,5 @@ body {
 .Navbar {
   position: fixed;
   top: 0px;
-  align-items: center;
+  left: 50%;
 }
