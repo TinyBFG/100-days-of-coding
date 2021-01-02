@@ -11,8 +11,10 @@ body {
   position: fixed;
   text-align: center;
   left: 0;
-  color: #D8BFD8;
+  color: #DDA0DD;
   height: 5%;
+  border-bottom: 1px;
+  border-color: #8B008B
 }
 .Home-button {
 }
