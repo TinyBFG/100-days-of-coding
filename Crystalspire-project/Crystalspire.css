@@ -18,9 +18,12 @@ body {
 .Mindflayer-symbol {
   height: 9%;
   padding-top: 5px;
-  
+
 }
 .Navbar-buttons {
   display: flex;
   justify-content: space-between;
+}
+.Home-button {
+  margin-right: auto;
 }
