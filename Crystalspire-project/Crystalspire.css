@@ -28,7 +28,8 @@ body {
 .Home-button {
   margin-left: -30%;
   margin-right: 57%;
+  align-items: center;
 }
 .Dropdown-menu {
-
+  align-items: center;
 }
