@@ -12,13 +12,15 @@ body {
   text-align: center;
   left: 0;
   color: #F5F5F5;
-  height: 10%;
   border-bottom: solid #F5F5F5 2px;
 }
 .Home-button {
-  height: inherit;
+
 }
 .Navbar-buttons {
   display: flex;
   justify-content: space-between;
+}
+.Navbar .Home-button {
+  height: 20px;
 }
