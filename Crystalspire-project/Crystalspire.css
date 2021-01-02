@@ -2,11 +2,12 @@ body {
   background: linear-gradient(217deg, #FFB6C1, #7B68EE)
 }
 .Navbar {
-  position: fixed;
   top: 0px;
-  left: 50%;
+  left: 0px;
   background-image: url(https://images.unsplash.com/photo-1464802686167-b939a6910659?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1633&q=80);
 }
 .Home-button {
-
+  position: fixed;
+  top: 0px;
+  left: 50%;
 }
