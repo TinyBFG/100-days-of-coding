@@ -11,9 +11,9 @@ body {
   position: fixed;
   text-align: center;
   left: 0;
-  color: #DDA0DD;
+  color: #8B0000;
   height: 5%;
-  border-bottom: solid #DC143C 2px;
+  border-bottom: solid #8B0000 2px;
 }
 .Home-button {
 }
