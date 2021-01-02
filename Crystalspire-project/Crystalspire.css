@@ -16,4 +16,5 @@ body {
   border-bottom: solid #F5F5F5 2px;
 }
 .Home-button {
+  height: inherit;
 }
