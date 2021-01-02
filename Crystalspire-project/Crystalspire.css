@@ -21,11 +21,12 @@ body {
 
 }
 .Navbar-buttons {
-
+  display: flex;
+  justify-content: space-between;
 }
 .Home-button {
-  margin-right: auto;
+
 }
 .Dropdown-menu {
-  margin-left: auto;
+
 }
