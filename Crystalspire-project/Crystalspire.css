@@ -13,6 +13,7 @@ body {
   left: 0;
   color: #F5F5F5;
   border-bottom: solid #F5F5F5 2px;
+  height: 10%;
 }
 .Home-button {
 
@@ -20,7 +21,4 @@ body {
 .Navbar-buttons {
   display: flex;
   justify-content: space-between;
-}
-.Navbar .Home-button {
-  height: 20px;
 }
