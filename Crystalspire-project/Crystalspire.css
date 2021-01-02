@@ -22,11 +22,10 @@ body {
 }
 .Navbar-buttons {
   display: flex;
-  justify-content: space-between;
 }
 .Home-button {
-
+  justify-content: flex-start;
 }
 .Dropdown-menu {
-
+  justify-content: flex-end;
 }
