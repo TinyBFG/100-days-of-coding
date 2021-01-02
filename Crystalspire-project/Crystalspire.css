@@ -25,7 +25,11 @@ body {
 }
 .Home-button {
   justify-content: flex-start;
+  margin-left: 0;
+  margin-right: auto;
 }
 .Dropdown-menu {
   justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 0;
 }
