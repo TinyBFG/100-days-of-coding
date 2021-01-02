@@ -1,3 +1,7 @@
 body {
   background: linear-gradient(217deg, #FFB6C1, #7B68EE)
 }
+.Navbar {
+  position: fixed;
+  top: 0px;
+}
