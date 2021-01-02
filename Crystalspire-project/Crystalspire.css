@@ -13,9 +13,7 @@ body {
   left: 0;
   color: #DDA0DD;
   height: 5%;
-  border-bottom: 2px;
-  border-color: #DC143C;
-  border-style: solid;
+  border-bottom: solid #DC143C 2px;
 }
 .Home-button {
 }
