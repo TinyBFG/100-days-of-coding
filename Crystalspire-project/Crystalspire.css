@@ -17,7 +17,8 @@ body {
 }
 .Mindflayer-symbol {
   height: 9%;
-  top: 2px;
+  padding-top: 5px;
+  align-items: flex-start;
 }
 .Navbar-buttons {
   display: flex;
