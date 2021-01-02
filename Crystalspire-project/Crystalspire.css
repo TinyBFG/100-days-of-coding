@@ -33,3 +33,6 @@ body {
 .Dropdown-menu {
   align-items: center;
 }
+.dropbutton {
+  overflow: hidden;
+}
