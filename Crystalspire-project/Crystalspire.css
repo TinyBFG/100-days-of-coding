@@ -1,3 +1,4 @@
+/*Master Styles*/
 body {
   background: linear-gradient(217deg, #FFB6C1, #7B68EE);
   margin: 3px;
@@ -6,6 +7,8 @@ body {
   display: grid;
   grid-template-columns: 1fr;
 }
+
+/*Nav Styles*/
 .Navbar {
   background-color: #000000;
   top: 0;
@@ -36,6 +39,8 @@ body {
   margin-right: 54%;
   align-items: center;
 }
+
+/*Dropdown Menu Styles*/
 .dropbtn {
   background-color: #000000;
   color: #B0E0E6;
@@ -73,3 +78,5 @@ body {
   background-color: #000000;
   color: #B0E0E6;
 }
+
+/*Main Menu Styles*/
