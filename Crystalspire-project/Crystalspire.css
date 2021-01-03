@@ -15,6 +15,7 @@ body {
   border-bottom: solid #F5F5F5 2px;
   height: 10%;
   overflow: hidden;
+  font-family: sans-serif;
 }
 .Mindflayer-symbol {
   height: 9%;
@@ -39,6 +40,10 @@ body {
 .dropbutton {
   overflow: hidden;
 }
+.Dropdown-menu {
+  overflow: hidden;
+  float: left;
+}
 .Dropdown-menu .dropbutton {
   font-size: 16px;
   border: none;
@@ -62,6 +67,6 @@ body {
 .dropdown-content a:hover {
   background-color: #ddd;
 }
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover, .Dropdown-menu:hover .dropbutton {
   background-color: red;
 }
