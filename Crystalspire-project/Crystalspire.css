@@ -43,7 +43,7 @@ body {
   outline: none;
   font-family: inherit;
   margin: 0;
-  color: #F5F5F5;
+  color: black;
 }
 .dropdown-content {
   display: none;
@@ -56,4 +56,10 @@ body {
   text-decoration: none;
   display: block;
   text-align: left;
+}
+.Dropdown-menu:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
 }
