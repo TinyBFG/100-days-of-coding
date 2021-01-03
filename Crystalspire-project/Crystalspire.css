@@ -31,7 +31,7 @@ body {
   margin-right: 57%;
   align-items: center;
 }
-.Dropdown-menu {
+.Dropdown-menu .dropbutton .dropdown-content{
   align-items: center;
   color: #F5F5F5;
   background-color: black;
