@@ -41,6 +41,8 @@ body {
   overflow: hidden;
   position: absolute;
   padding: 15px;
+  color: #F5F5F5;
+  background-color: black;
 }
 .Dropdown-menu {
   overflow: hidden;
