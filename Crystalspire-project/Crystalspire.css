@@ -60,6 +60,7 @@ body {
   text-decoration: none;
   display: block;
   text-align: left;
+  padding: 15px;
 }
 .Dropdown-menu:hover .dropdown-content {
   display: block;
