@@ -85,7 +85,7 @@ body {
 .Portfolio-items-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 10%;
+  margin-top: 100px;
 }
 .Portfolio-item-wrapper {
   position: relative;
