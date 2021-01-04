@@ -98,7 +98,8 @@ body {
 }
 .logo-wrapper img {
   height: 150px;
-  width: 80%;
+  width: 50%;
+  margin-bottom: 20px;
 }
 .text-wrapper {
   position: absolute;
