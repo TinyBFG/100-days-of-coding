@@ -1,8 +1,8 @@
 /*Master Styles*/
 body {
   background: linear-gradient(217deg, #FFB6C1, #7B68EE);
-  margin: 3px;
-  margin-top: 8%;
+  margin: 1px;
+  margin-top: 3px;
 }
 .container {
   display: grid;
