@@ -2,6 +2,7 @@
 body {
   background: linear-gradient(217deg, #FFB6C1, #7B68EE);
   margin: 3px;
+  margin-top: 8%;
 }
 .container {
   display: grid;
@@ -96,6 +97,18 @@ body {
   background-repeat: no-repeat;
 }
 .logo-wrapper img {
-  height: 100px;
+  height: 150px;
   width: 100%;
+}
+.text-wrapper {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
 }
