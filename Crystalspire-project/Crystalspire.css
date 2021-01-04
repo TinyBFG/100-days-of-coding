@@ -101,6 +101,8 @@ body {
   width: 50%;
   margin-bottom: 20px;
   z-index: 9999;
+  top: -100px;
+  left: 100px;
 }
 .text-wrapper {
   position: absolute;
