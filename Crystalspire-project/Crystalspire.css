@@ -99,6 +99,7 @@ body {
 .logo-wrapper img {
   width: 50%;
   margin-bottom: 20px;
+  z-index: 100;
 }
 .text-wrapper {
   position: absolute;
