@@ -85,7 +85,6 @@ body {
 .Portfolio-items-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 100px;
 }
 .Portfolio-item-wrapper {
   position: relative;
@@ -112,4 +111,7 @@ body {
   height: 100%;
   padding-left: 100px;
   padding-right: 100px;
+}
+.Portfolio {
+  margin-top: 10%;
 }
