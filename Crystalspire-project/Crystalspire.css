@@ -104,9 +104,12 @@ body {
   margin-bottom: 20px;
   z-index: 9999;
   position: relative;
+  /*   Why didnt flexbox work here?
   display: flex;
   justify-content: center;
   align-items: center;
+  */
+  margin: auto;
 }
 .text-wrapper {
   position: absolute;
@@ -119,5 +122,5 @@ body {
   height: 100%;
   padding-left: 100px;
   padding-right: 100px;
-  padding-bottom: 20px;
+  color: #F5F5F5;
 }
