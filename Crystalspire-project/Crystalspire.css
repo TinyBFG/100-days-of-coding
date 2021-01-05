@@ -107,13 +107,7 @@ body {
   width: 50%;
   z-index: 9999;
   position: relative;
-  /*   Why didnt flexbox work here?  Because of text-wrapper flexbox?  Hypothesis: I have been using these styles on the logo and not the container
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  */
-}
-/*testing hypothesis here*/
+
 .logo-wrapper {
   display: flex;
   justify-content: center;
@@ -125,7 +119,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  align-items: baseline;
   text-align: center;
   height: 100%;
   padding-left: 100px;
