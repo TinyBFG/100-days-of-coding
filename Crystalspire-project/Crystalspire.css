@@ -115,16 +115,15 @@ body {
 }
 /*testing hypothesis here*/
 .logo-wrapper {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 .text-wrapper {
   position: absolute;
   top: 0;
-  /* Leaving this here in case my plan doesnt work
   display: flex;
   flex-direction: column;
-  */
   justify-content: center;
   align-items: flex-end;
   text-align: center;
