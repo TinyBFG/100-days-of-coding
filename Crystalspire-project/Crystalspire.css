@@ -92,18 +92,18 @@ body {
 }
 .Portfolio-img-background {
   height: 300px;
-  width: 100%
+  width: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  position: relative;
+  position: absolute;
   z-index: 1;
 }
 .logo-wrapper img {
   width: 50%;
   margin-bottom: 20px;
   z-index: 9999;
-  position: absolute;
+  position: relative;
 }
 .text-wrapper {
   position: absolute;
