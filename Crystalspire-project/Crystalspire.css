@@ -105,14 +105,16 @@ body {
 }
 .logo-wrapper img {
   width: 50%;
-  margin-bottom: 20px;
   z-index: 9999;
   position: relative;
-  /*   Why didnt flexbox work here?  Because of text-wrapper flexbox?
+  /*   Why didnt flexbox work here?  Because of text-wrapper flexbox?  Hypothesis: I have been using these styles on the logo and not the container
   display: flex;
   justify-content: center;
   align-items: center;
   */
+}
+/*testing hypothesis here*/
+.logo-wrapper {
   justify-content: center;
   align-items: center;
 }
