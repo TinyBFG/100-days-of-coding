@@ -99,25 +99,32 @@ body {
   position: absolute;
   z-index: -1;
 }
+.Portfolio-logo-text-wrapper {
+  display: flex;
+  flex-direction: column;
+}
 .logo-wrapper img {
   width: 50%;
   margin-bottom: 20px;
   z-index: 9999;
   position: relative;
-  /*   Why didnt flexbox work here?
+  /*   Why didnt flexbox work here?  Because of text-wrapper flexbox?
   display: flex;
   justify-content: center;
   align-items: center;
   */
-  margin: auto;
+  justify-content: center;
+  align-items: center;
 }
 .text-wrapper {
   position: absolute;
   top: 0;
+  /* Leaving this here in case my plan doesnt work
   display: flex;
   flex-direction: column;
+  */
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   text-align: center;
   height: 100%;
   padding-left: 100px;
