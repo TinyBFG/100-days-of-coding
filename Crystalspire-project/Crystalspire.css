@@ -96,11 +96,14 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
 }
 .logo-wrapper img {
   width: 50%;
   margin-bottom: 20px;
   z-index: 9999;
+  position: absolute;
 }
 .text-wrapper {
   position: absolute;
