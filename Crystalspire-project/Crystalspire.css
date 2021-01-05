@@ -107,7 +107,7 @@ body {
   width: 50%;
   z-index: 9999;
   position: relative;
-
+}
 .logo-wrapper {
   display: flex;
   flex-direction: column;
