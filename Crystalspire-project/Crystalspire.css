@@ -8,6 +8,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 10px;
+  grid-template-rows: max-content;
 }
 
 /*Nav Styles*/
@@ -98,7 +99,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
-/*  z-index: 0;*/
+  z-index: 0;
 }
 .Portfolio-logo-text-wrapper {
   display: flex;
@@ -106,7 +107,7 @@ body {
 }
 .logo-wrapper img {
   width: 30%;
-  /*z-index: 1;*/
+  z-index: 1;
   position: relative;
 }
 .logo-wrapper {
