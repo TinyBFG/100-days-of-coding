@@ -7,6 +7,8 @@ body {
 .container {
   display: grid;
   grid-template-columns: 1fr;
+  grid-gap: 5px;
+  height: 500px;
 }
 
 /*Nav Styles*/
