@@ -90,6 +90,8 @@ body {
 }
 .Portfolio-item-wrapper {
   position: relative;
+  height: 600px;
+  width: 100%;
 }
 .Portfolio-img-background {
   max-height: 100%;
