@@ -101,7 +101,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
-  z-index: -1;
+  z-index: -2;
 }
 .Portfolio-logo-text-wrapper {
   display: flex;
@@ -117,7 +117,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 40%;
+  padding-top: 30%;
 }
 .text-wrapper {
   position: absolute;
@@ -131,6 +131,7 @@ body {
   padding-left: 100px;
   padding-right: 100px;
   color: #F5F5F5;
+  z-index: -1;
 }
 /* Notes for next time
 The grid boxes are adapting to the shape of the logo and not the background img so I will need to fix that and continue attempting to shift the text to the bottom, also look at error and exception*/
