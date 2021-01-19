@@ -96,7 +96,7 @@ body {
 .Portfolio-img-background {
   max-height: 100%;
   height: inherit;
-  width: 100%;
+  width: inherit;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
