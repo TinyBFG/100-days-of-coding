@@ -134,5 +134,8 @@ body {
   color: #F5F5F5;
   z-index: -1;
 }
+p {
+  text-align: center;
+}
 /* Notes for next time
 The grid boxes are adapting to the shape of the logo and not the background img so I will need to fix that and continue attempting to shift the text to the bottom, also look at error and exception*/
