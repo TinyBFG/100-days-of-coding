@@ -106,6 +106,7 @@ body {
 .Portfolio-logo-text-wrapper {
   display: flex;
   flex-direction: column;
+  height: inherit;
 }
 .logo-wrapper img {
   width: 50%;
