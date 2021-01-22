@@ -87,11 +87,12 @@ body {
 .Portfolio-items-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(4, 337px);
 }
 .Portfolio-item-wrapper {
   position: relative;
   height: 337px;
-  width: 449.66px;
+  width: 420px;
 }
 .Portfolio-img-background {
   max-height: 100%;
