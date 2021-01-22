@@ -87,13 +87,12 @@ body {
 .Portfolio-items-wrapper {
   display: grid;
   grid-auto-flow: row;
-  grid-template-columns: repeat(3, 440px);
-
+  grid-template-columns: repeat(3, 442px);
 }
 .Portfolio-item-wrapper {
   position: relative;
   height: 337px;
-  width: 440px;
+  width: 442px;
 }
 .Portfolio-img-background {
   max-height: 100%;
@@ -121,7 +120,7 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 10%;
-  margin-left: -5px;
+  margin-left: -10px;
 }
 .text-wrapper {
   position: absolute;
@@ -132,7 +131,7 @@ body {
   align-items: baseline;
   text-align: center;
   height: 100%;
-  padding-left: 37%;
+  padding-left: 39%;
   padding-right: 40%;
   margin-top: -5px;
   margin-left: auto;
