@@ -87,7 +87,8 @@ body {
 .Portfolio-items-wrapper {
   display: grid;
   grid-auto-flow: row;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 440px);
+
 }
 .Portfolio-item-wrapper {
   position: relative;
