@@ -81,9 +81,8 @@
                 <img src="Crystalspire-images/Orick-Logo-3.png" alt="Hammer of the Mountain King">
               </div>
               <div class="text-wrapper"
-              style="color: Black;
-              margin-left: 47%;
-              padding-left: 0%;">
+              style="margin-left: 47%;
+                     padding-left: 0%;">
                 <p><b>Orick</b></p>
                 <p></p>
               </div>
@@ -198,4 +197,14 @@
       </div>
     </div>
   </body>
+<script>
+  const PortfolioItem = document.querySelectorAll('.Portfolio-item-wrapper')
+
+  PortfolioItem.forEach((PortfolioItems => {
+    PortfolioItem.addEventListener('mouseover', () => {
+      console.log(PortfolioItem);
+    })
+  })
+
+</script>
 </html>
