@@ -200,9 +200,9 @@
 <script>
   const PortfolioItem = document.querySelectorAll('.Portfolio-item-wrapper')
 
-  PortfolioItem.forEach((PortfolioItems => {
+  PortfolioItem.forEach((PortfolioItem => {
     PortfolioItem.addEventListener('mouseover', () => {
-      console.log(PortfolioItem);
+      console.log(PortfolioItem.childNodes)
     })
   })
 
