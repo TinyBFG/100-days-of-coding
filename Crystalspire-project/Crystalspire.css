@@ -155,7 +155,16 @@ p {
   font-weight: 600;
   color: #7B68EE;
 }
+.Portfolio-item-wrapper {
+  transition: filter 1s;
+}
+.Portfolio-item-wrapper:hover{
+  filter: brightness(10%);
+}
+/*
+needed for java script solution
 .img-darken {
   transition: 1s;
   filter: brightness(10%);
 }
+*/
