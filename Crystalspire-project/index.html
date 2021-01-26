@@ -203,6 +203,7 @@
   PortfolioItem.forEach((PortfolioItem => {
     PortfolioItem.addEventListener('mouseover', () => {
       console.log(PortfolioItem.childNodes[1].classlist);
+      PortfolioItem.childNodes[1].classlist.add('img-darken');
     })
   }))
 
