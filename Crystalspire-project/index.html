@@ -198,20 +198,20 @@
     </div>
   </body>
 <script>
-  const PortfolioItems = document.querySelectorAll('.Portfolio-item-wrapper')
+  const portfolioItems = document.querySelectorAll('.Portfolio-item-wrapper')
 
-  PortfolioItems.forEach(PortfolioItem => {
-    PortfolioItem.addEventListener('mouseover', () => {
-      PortfolioItem.childNodes[1].classList.add('img-darken');
+  portfolioItems.forEach(portfolioItem => {
+    portfolioItem.addEventListener('mouseover', () => {
+      portfolioItem.childNodes[1].classList.add('img-darken');
     })
   })
 
-  PortfolioItems.forEach(PortfolioItem => {
-    PortfolioItem.addEventListener('mouseover', () => {
-      PortfolioItem.childNodes[1].classList.remove('img-darken');
+  portfolioItems.forEach(portfolioItem => {
+    portfolioItem.addEventListener('mouseover', () => {
+      portfolioItem.childNodes[1].classList.remove('img-darken');
     })
   })
 
-      console.log(PortfolioItem.childNodes[1]);
+      console.log(portfolioItem.childNodes[1]);
 </script>
 </html>
