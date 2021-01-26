@@ -155,12 +155,13 @@ p {
   font-weight: 600;
   color: #7B68EE;
 }
-.Portfolio-item-wrapper {
+.Portfolio-item-wrapper .Portfolio-img-background {
   transition: filter 1s;
 }
-.Portfolio-item-wrapper:hover{
+.Portfolio-item-wrapper:hover .Portfolio-img-background {
   filter: brightness(10%);
 }
+
 /*
 needed for java script solution
 .img-darken {
