@@ -145,15 +145,15 @@ p {
   margin-top: 5px;
   margin-bottom: 5px;
 }
-.Portfolio-img-background .text-wrapper {
+.Portfolio-item-wrapper .text-wrapper {
   font-weight: 600;
   color: transparent;
+  transition: 1s;
 }
 
-.Portfolio-img-background:hover .text-wrapper {
+.Portfolio-item-wrapper:hover .text-wrapper {
   font-weight: 600;
   color: #7B68EE;
-  transition: 1s;
 }
 .img-darken {
   transition: 1s;
