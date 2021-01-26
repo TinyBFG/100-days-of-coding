@@ -145,13 +145,13 @@ p {
   margin-top: 5px;
   margin-bottom: 5px;
 }
-.Portfolio-img-background .subtitle {
+.Portfolio-img-background .text-wrapper {
   font-weight: 600;
   transition: 1s;
   color: transparent;
 }
 
-.Portfolio-img-background:hover .subtitle {
+.Portfolio-img-background:hover .text-wrapper {
   font-weight: 600;
   color: #7B68EE;
 }
