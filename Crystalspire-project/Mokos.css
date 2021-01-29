@@ -1,3 +1,8 @@
+/*Master Styles*/
+.Container {
+  margin-left: 150px;
+  margin-right: 150px;
+}
 /*Nav Styles*/
 .Navbar {
   background-color: #000000;
