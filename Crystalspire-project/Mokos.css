@@ -1,7 +1,7 @@
 /*Master Styles*/
 .Container {
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 /*Nav Styles*/
 .Navbar {
@@ -74,4 +74,22 @@
 .dropdown:hover .dropbtn {
   background-color: #000000;
   color: #B0E0E6;
+}
+h1 {
+  font-size: 200%;
+  font-weight: 200;
+  text-align: center;
+  color: #708090;
+}
+/* Journal Styles*/
+.Journal-Entry-1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+.Journal-Text {
+  position: relative;
+  z-index: 2;
+}
+.Journal-Picture {
+  position: absolute;
 }
