@@ -1,7 +1,7 @@
 /*Master Styles*/
 .Container {
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*Nav Styles*/
 .Navbar {
@@ -76,10 +76,11 @@
   color: #B0E0E6;
 }
 h1 {
-  font-size: 200%;
-  font-weight: 200;
+  font-size: 300%;
+  font-weight: 300;
   text-align: center;
   color: #708090;
+  z-index: 3;
 }
 /* Journal Styles*/
 .Journal-Entry-1 {
