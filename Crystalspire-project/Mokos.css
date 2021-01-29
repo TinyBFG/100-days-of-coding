@@ -1,0 +1,72 @@
+/*Nav Styles*/
+.Navbar {
+  background-color: #000000;
+  top: 0;
+  margin: 0 auto;
+  display: block;
+  padding: 0;
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  left: 0;
+  color: #F5F5F5;
+  border-bottom: solid #F5F5F5 2px;
+  height: 8%;
+  font-family: sans-serif;
+}
+.Mindflayer-symbol {
+  height: 9%;
+  padding-top: 5px;
+  margin-left: 0;
+  margin-right: auto;
+}
+.Navbar-buttons {
+  display: flex;
+  justify-content: center;
+}
+.Home-button {
+  margin-left: -30%;
+  margin-right: 54%;
+  align-items: center;
+}
+
+/*Dropdown Menu Styles*/
+.dropbtn {
+  background-color: #000000;
+  color: #B0E0E6;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  z-index: 9999;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 9999;
+}
+.dropdown-content a {
+  color: #B0E0E6;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #B0E0E6;
+  color: #000000;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #000000;
+  color: #B0E0E6;
+}
