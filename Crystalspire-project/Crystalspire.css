@@ -89,6 +89,7 @@ body {
   grid-auto-flow: row;
   grid-template-columns: repeat(3, 450px);
   grid-row-gap: 10px;
+  margin-left: 5px;
 }
 .Portfolio-item-wrapper {
   position: relative;
