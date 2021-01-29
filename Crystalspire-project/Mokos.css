@@ -1,4 +1,9 @@
 /*Master Styles*/
+body {
+  max-height: 100%;
+  background-size: cover;
+  background-image: url(Crystalspire-images/Mokos-page-picture-2.jpg);
+}
 .Container {
   margin-left: auto;
   margin-right: auto;
