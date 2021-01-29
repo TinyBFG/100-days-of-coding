@@ -7,7 +7,6 @@ body {
 .container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 10px;
 }
 
 /*Nav Styles*/
@@ -50,6 +49,7 @@ body {
   font-size: 16px;
   border: none;
   cursor: pointer;
+  z-index: 9999;
 }
 .dropdown {
   position: relative;
@@ -87,7 +87,8 @@ body {
 .Portfolio-items-wrapper {
   display: grid;
   grid-auto-flow: row;
-  grid-template-columns: repeat(3, 445px);
+  grid-template-columns: repeat(3, 450px);
+  grid-row-gap: 10px;
 }
 .Portfolio-item-wrapper {
   position: relative;
@@ -150,7 +151,6 @@ p {
   color: transparent;
   transition: 1s;
 }
-
 .Portfolio-item-wrapper:hover .text-wrapper {
   font-weight: 600;
   color: #7B68EE;
@@ -161,11 +161,3 @@ p {
 .Portfolio-item-wrapper:hover .Portfolio-img-background {
   filter: brightness(20%);
 }
-
-/*
-needed for java script solution
-.img-darken {
-  transition: 1s;
-  filter: brightness(10%);
-}
-*/

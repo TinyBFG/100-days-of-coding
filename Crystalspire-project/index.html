@@ -125,7 +125,8 @@
             </div>
             <div class="Portfolio-logo-text-wrapper">
               <div class="logo-wrapper">
-                <img src="Crystalspire-images/Greenest-Logo-3.png" alt="Smokey Dragon Ring">
+                <img src="Crystalspire-images/Greenest-Logo-3.png" alt="Smokey Dragon Ring"
+                style="width: 40%;">
               </div>
               <div class="text-wrapper">
                 <p><b>Greenest</b></p>
@@ -134,14 +135,14 @@
             </div>
           </div>
           <div class="Portfolio-item-wrapper">
-            <div class="Portfolio-img-background" style="background-image:url(Crystalspire-images/Bugbear-picture1.jpg)"></div>
+            <div class="Portfolio-img-background" style="background-image:url(Crystalspire-images/Egon-Picture-1.jpg)"></div>
             <div class="Portfolio-logo-text-wrapper">
               <div class="logo-wrapper">
-                <img src="Crystalspire-images/Skull1.png" alt="Skull">
+                <img src="Crystalspire-images/Egon-Logo-1.png" alt="Ghostbusters">
               </div>
               <div class="text-wrapper">
-                <p><b>Daithi</b></p>
-                <p>The Walking Cataclysm</p>
+                <p><b>Egon</b></p>
+                <p>The Sorceror Supreme</p>
               </div>
             </div>
           </div>
@@ -197,22 +198,16 @@
       </div>
     </div>
   </body>
-  <!---    The video I was using insisted on javascript but css should be able to do this pretty easily so were gonna experiment
+<!--
 <script>
-  const portfolioItems = document.querySelectorAll('.Portfolio-item-wrapper')
+$('.tablecontrol').slideUp();
+$('.controlhover').hover(function() {$('.tablecontrol').slideDown()}, function() {$('.tablecontrol').slideUp();});
 
-  portfolioItems.forEach(portfolioItem => {
-    portfolioItem.addEventListener('mouseover', () => {
-      portfolioItem.childNodes[1].classList.add('img-darken');
-    })
-  })
-
-  portfolioItems.forEach(portfolioItem => {
-    portfolioItem.addEventListener('mouseover', () => {
-      portfolioItem.childNodes[1].classList.remove('img-darken');
-    })
-  })
-
+$('.controlhover').hover(function () {
+    $('.table').addClass('myhover');
+}, function () {
+    $('.table').removeClass('myhover');
+});
 </script>
 -->
 </html>
