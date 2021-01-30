@@ -2,7 +2,7 @@
 body {
   max-height: 100%;
   background-size: cover;
-  background-image: url(Crystalspire-images/Mokos-page-picture-2.jpg);
+  background-image: url(Crystalspire-images/Mokos-page-picture-4.jpg);
   width: 1351px;
 }
 .Container {
@@ -23,7 +23,7 @@ body {
   text-align: center;
   left: 0;
   color: #F5F5F5;
-  border-bottom: solid #F5F5F5 2px;
+/* border-bottom: solid #F5F5F5 2px; */
   height: 8%;
   font-family: sans-serif;
   z-index: -5;
