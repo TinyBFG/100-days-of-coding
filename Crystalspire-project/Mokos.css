@@ -24,6 +24,7 @@ body {
   border-bottom: solid #F5F5F5 2px;
   height: 8%;
   font-family: sans-serif;
+  z-index: -5;
 }
 .Mindflayer-symbol {
   height: 9%;
@@ -116,4 +117,5 @@ h1 {
   width: 50%;
   background-image: url(Crystalspire-images/Mokos-page-picture-3.jpg);
   background-size: cover;
+  max-height: 100%;
 }
