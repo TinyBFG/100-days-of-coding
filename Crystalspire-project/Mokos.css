@@ -85,16 +85,18 @@ h1 {
   font-weight: 300;
   text-align: center;
   color: #708090;
-  z-index: 3;
+  z-index: 9999;
 }
 /* Journal Styles*/
 .Journal-Entry-1 {
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
 .Journal-Text {
   position: relative;
   z-index: 2;
+  margin-top: 15px;
 }
 .Journal-Picture {
   position: absolute;
