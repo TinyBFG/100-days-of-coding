@@ -95,7 +95,6 @@ h1 {
 /* Main Content Styles*/
 .Journal-Entry-1 {
   display: block;
-  margin: auto;
   width: 50%;
 }
 .Journal-Text {
@@ -119,5 +118,5 @@ h1 {
   background-image: url(Crystalspire-images/Mokos-page-picture-3.jpg);
   background-size: cover;
   max-height: 100%;
-  height: 100%
+  height: 100%;
 }
