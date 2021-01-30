@@ -3,7 +3,7 @@ body {
   max-height: 100%;
   background-size: cover;
   background-image: url(Crystalspire-images/Mokos-page-picture-2.jpg);
-  max-width: 100%;
+  width: 1351px;
 }
 .Container {
   margin-left: auto;
@@ -91,15 +91,14 @@ h1 {
 /* Journal Styles*/
 .Journal-Entry-1 {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+  width: 50%;
 }
 .Journal-Text {
   position: relative;
   z-index: 2;
-  margin-top: 15px;
   padding-top: 20px;
-  font-size: 150%;
+  font-size: 125%;
   font-weight: 200;
 }
 .Journal-Picture {
