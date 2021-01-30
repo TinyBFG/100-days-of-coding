@@ -108,9 +108,12 @@ h1 {
   height: 321px;
   z-index: -1;
   background-size: cover;
+  background-image: url(Crystalspire-images/Parchment-1.jpg);
 }
 .Picture-1 {
   display: block;
   margin: auto;
   width: 50%;
+  background-image: url(Crystalspire-images/Mokos-page-picture-3.jpg);
+  background-size: cover;
 }
