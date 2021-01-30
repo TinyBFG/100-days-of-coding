@@ -10,6 +10,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   overflow-y: hidden;
+  margin-top: 10px;
 }
 /*Nav Styles*/
 .Navbar {
@@ -23,7 +24,7 @@ body {
   text-align: center;
   left: 0;
   color: #F5F5F5;
-/* border-bottom: solid #F5F5F5 2px; */
+  border-bottom: solid #F5F5F5 2px;
   height: 8%;
   font-family: sans-serif;
   z-index: -5;
