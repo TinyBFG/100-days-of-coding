@@ -11,18 +11,29 @@
   text-align: center;
   left: 0;
   color: #00553F;
-  border-bottom: solid #00553F 2px;
+/*  border-bottom: solid #00553F 2px; */
   height: 10%;
 }
 .Navbar-buttons {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
+  justify-content: center;
 
 }
 .Navbar-buttons a {
   text-decoration: none;
+  color: #EED9B6;
+  transition: 1s;
+  font-weight: 400;
+}
+.Navbar-buttons a:hover {
+  color: #00553F;
+  text-decoration: underline;
+  font-weight: 500;
 }
 .Navbar-button-1 {
+  margin-right: auto;
+  left: 0;
 
 }
