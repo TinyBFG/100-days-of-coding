@@ -10,23 +10,14 @@
   position: fixed;
   text-align: center;
   left: 0;
-  color: #F5F5F5;
-  border-bottom: solid #F5F5F5 2px;
-  height: 8%;
+  color: #76FF83;
+  border-bottom: solid #76FF83 2px;
+  height: 10%;
   font-family: sans-serif;
-}
-.Mindflayer-symbol {
-  height: 9%;
-  padding-top: 5px;
-  margin-left: 0;
-  margin-right: auto;
 }
 .Navbar-buttons {
   display: flex;
-  justify-content: center;
-}
-.Home-button {
-  margin-left: -30%;
-  margin-right: 54%;
+  flex-direction: row;
   align-items: center;
+  
 }
