@@ -1,6 +1,9 @@
 body {
   background: linear-gradient(217deg, #00553F, #EED9B6);
   background-image: url(Wedding-website-images/Homepage-img-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 /*Navbar Styles*/
 .Navbar {
@@ -15,7 +18,7 @@ body {
   left: 0;
   color: #00553F;
 /*  border-bottom: solid #00553F 2px; */
-  height: 10%;
+  height: 8%;
 }
 .Navbar-buttons {
   display: flex;
