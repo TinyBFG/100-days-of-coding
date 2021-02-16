@@ -1,0 +1,32 @@
+
+/*Navbar Styles*/
+.Navbar {
+  background-color: white;
+  top: 0;
+  margin: 0 auto;
+  display: block;
+  padding: 0;
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  left: 0;
+  color: #F5F5F5;
+  border-bottom: solid #F5F5F5 2px;
+  height: 8%;
+  font-family: sans-serif;
+}
+.Mindflayer-symbol {
+  height: 9%;
+  padding-top: 5px;
+  margin-left: 0;
+  margin-right: auto;
+}
+.Navbar-buttons {
+  display: flex;
+  justify-content: center;
+}
+.Home-button {
+  margin-left: -30%;
+  margin-right: 54%;
+  align-items: center;
+}
