@@ -10,14 +10,19 @@
   position: fixed;
   text-align: center;
   left: 0;
-  color: #76FF83;
-  border-bottom: solid #76FF83 2px;
+  color: #00553F;
+  border-bottom: solid #00553F 2px;
   height: 10%;
-  font-family: sans-serif;
 }
 .Navbar-buttons {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   align-items: center;
-  
+
+}
+.Navbar-buttons a {
+  text-decoration: none;
+}
+.Navbar-button-1 {
+
 }
