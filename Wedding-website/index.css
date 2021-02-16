@@ -1,4 +1,7 @@
-
+body {
+  background: linear-gradient(217deg, #00553F, #EED9B6);
+  background-image: url(Wedding-website-images/Homepage-img-1.jpg);
+}
 /*Navbar Styles*/
 .Navbar {
   background-color: white;
@@ -16,16 +19,17 @@
 }
 .Navbar-buttons {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-
+  padding-top: 5px;
 }
 .Navbar-buttons a {
   text-decoration: none;
   color: #EED9B6;
   transition: 1s;
   font-weight: 400;
+  font-size: 18px;
 }
 .Navbar-buttons a:hover {
   color: #00553F;
@@ -34,6 +38,4 @@
 }
 .Navbar-button-1 {
   margin-right: auto;
-  left: 0;
-
 }
