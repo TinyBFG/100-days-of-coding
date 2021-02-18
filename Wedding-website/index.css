@@ -42,11 +42,16 @@ body {
   margin-right: auto;
 }
 .Main-text {
-  top: auto;
-  bottom: auto;
+  /*top: auto;
+  bottom: auto;*/
   font-size: 24px;
   font-family: Georgia, serif;
   font-weight: 600;
   color: #EED9B6;
   align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  max-height: 100%;
+  max-width: 100%;
+  
 }
