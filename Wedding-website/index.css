@@ -42,10 +42,12 @@ body {
 }
 .Navbar-button-1 {
   margin-right: auto;
-  font-size: 24px;
 }
 .Navbar-button-2 .Navbar-button-3 .Navbar-button-4 {
-  margin-right: 10px;
+  padding-right: 10px;
+}
+.Home-button {
+  font-size: 36px;
 }
 /* Page Styles*/
 .Main-text {
@@ -56,7 +58,7 @@ body {
   font-weight: 600;
   color: #EED9B6;
   align-items: center;
-  margin-top: 30%;
+  margin-top: 25%;
   margin-left: 30%;
   max-height: 100%;
   max-width: 100%;
