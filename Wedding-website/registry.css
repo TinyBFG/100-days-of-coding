@@ -1,0 +1,55 @@
+body {
+  background: linear-gradient(217deg, #00553F, #EED9B6);
+  background-image: url(Wedding-website-images/Homepage-img-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+/*Navbar Styles*/
+.Navbar {
+  background-color: grey;
+  top: 0;
+  margin: 0 auto;
+  display: block;
+  padding: 0;
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  left: 0;
+  color: #00553F;
+  height: 7%;
+  opacity: 80%;
+}
+.Navbar-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.Navbar-buttons a {
+  text-decoration: none;
+  color: #EED9B6;
+  transition: 1s;
+  font-weight: 400;
+  font-size: 18px;
+}
+.Navbar-buttons a:hover {
+  color: #00553F;
+  text-decoration: underline;
+  font-weight: 500;
+}
+.Navbar-button-1 {
+  margin-right: auto;
+}
+.Navbar-button-2 {
+    padding-right: 10px;
+}
+.Navbar-button-3 {
+    padding-right: 10px;
+}
+.Navbar-button-4 {
+  padding-right: 10px;
+}
+.Home-button {
+  font-size: 36px;
+}
