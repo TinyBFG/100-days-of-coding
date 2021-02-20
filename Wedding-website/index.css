@@ -17,7 +17,6 @@ body {
   text-align: center;
   left: 0;
   color: #00553F;
-/*  border-bottom: solid #00553F 2px; */
   height: 7%;
   opacity: 80%;
 }
@@ -26,7 +25,6 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding-top: 1%;
 }
 .Navbar-buttons a {
   text-decoration: none;
@@ -43,7 +41,13 @@ body {
 .Navbar-button-1 {
   margin-right: auto;
 }
-.Navbar-button-2 .Navbar-button-3 .Navbar-button-4 {
+.Navbar-button-2 {
+    padding-right: 10px;
+}
+.Navbar-button-3 {
+    padding-right: 10px;
+}
+.Navbar-button-4 {
   padding-right: 10px;
 }
 .Home-button {
@@ -51,8 +55,6 @@ body {
 }
 /* Page Styles*/
 .Main-text {
-  /*top: auto;
-  bottom: auto;*/
   font-size: 200px;
   font-family: Georgia, serif;
   font-weight: 600;
