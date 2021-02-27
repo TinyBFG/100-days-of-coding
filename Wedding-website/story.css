@@ -1,6 +1,8 @@
 body {
   background: linear-gradient(217deg, #00553F, #EED9B6);
+  /*
   background-image: url(Wedding-website-images/Homepage-img-1.jpg);
+  */
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -13,7 +15,7 @@ body {
   display: block;
   padding: 0;
   width: 100%;
-  position: fixed;
+  position: absolute;
   text-align: center;
   left: 0;
   color: #00553F;
@@ -42,10 +44,10 @@ body {
   margin-right: auto;
 }
 .Navbar-button-2 {
-    padding-right: 10px;
+  padding-right: 10px;
 }
 .Navbar-button-3 {
-    padding-right: 10px;
+  padding-right: 10px;
 }
 .Navbar-button-4 {
   padding-right: 10px;
@@ -53,3 +55,32 @@ body {
 .Home-button {
   font-size: 36px;
 }
+/* Transition Styles*/
+.First-page {
+  background-image: url(Wedding-website-images/Homepage-img-1.jpg);
+  max-height: 100%;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  /*transition: 1s;
+  top: 100vh;*/
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: -8px;
+  margin-top: -8px;
+  z-index: -9999;
+}
+.Transition-bar {
+  margin-top: auto;
+  color: grey;
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 4%;
+}
+/*
+.First-page .Transition-bar:active {
+  transform: translateY(-100%)
+}*/
